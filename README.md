@@ -2,6 +2,8 @@
 
 Network device discovery is a tool that allows you to easily get a list of devices that are currently in the same network.
 
+![](example.gif)
+
 
 ## Why would I need this?
 
