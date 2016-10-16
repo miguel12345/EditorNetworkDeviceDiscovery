@@ -1,13 +1,13 @@
 #Network Device Discovery
 
-Network device discovery is a tool that allows you to easily get a list of devices that are currently in the same network.
+Network device discovery is a tool that allows you to easily get a list of devices that are currently on the same network.
 
 ![](example.gif)
 
 
 ## Why would I need this?
 
-Let's say you creating your own Unity editor tool that needs to connect to a device running your game/app in order to communicate with it. To do that, you need to know the device's IP adress. Your default option is to ask the user for it but that is a time-consuming and frustating thing to do.
+Let's say you creating your own Unity editor tool that needs to connect to a device running your game/app in order to communicate with it. To do that, you need to know the device's IP address. Your default option is to ask the user for it but that is a time-consuming and frustrating thing to do.
 
 ### Usage
 
@@ -32,7 +32,7 @@ public class Device
 
 A `Beacon` broadcasts a ping with a given frequency and a `Probe` listens for beacons and keeps an internal list of active ones.
 
-As an example, here is a very simple Editor window that lists all connected devices
+As an example here is a very simple Editor window that lists all connected devices
 
 ```
 public class DeviceListEditorWindow : EditorWindow {
@@ -91,4 +91,4 @@ public class DeviceList {
 
 ## Compatibility
 
-This tool was tested in OSX, Android and iOS but it should work on any platform that supports the `System.Net.Sockets` namespace.
+This tool was tested in OSX, Android, and iOS but it should work on any platform that supports the `System.Net.Sockets` namespace.
