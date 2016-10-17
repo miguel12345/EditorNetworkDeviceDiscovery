@@ -5,7 +5,7 @@ Network device discovery is a tool that allows you to easily get a list of devic
 ![](example.gif)
 
 
-## Why would I need this?
+## Why would you need this?
 
 Let's say you creating your own Unity editor tool that needs to connect to a device running your game/app in order to communicate with it. To do that, you need to know the device's IP address. Your default option is to ask the user for it but that is a time-consuming and frustrating thing to do.
 
